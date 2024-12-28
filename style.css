@@ -1,0 +1,167 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Arial', sans-serif;
+}
+   body{
+    background-color: lightgray;
+     color: darkslategray;
+     line-height: 1.6;
+    }
+   .container {
+    width:90%;
+     max-width:1200px;
+     margin:0 auto;
+    }
+   
+   header{
+    background: darkslategray;
+     color:white;
+     padding:20px 0;
+     text-align:center;
+    }
+   header h1{
+    font-size:3em;
+     margin-bottom:10px;
+    }
+   header p{
+    font-size:1.8em;
+}
+   
+   
+   #about{
+    background:white;
+     padding:40px 0;
+    }
+   #about h2{
+    font-size:2.5em;
+     text-align:center;  
+     margin-bottom:20px;
+    }
+   
+   .about-content{
+    display:flex;
+     justify-content:space-between;
+     align-items:center;
+     gap:20px;
+    }
+   .profile-img{
+    border-radius:50%;
+     width:150px;
+     height:190px;
+     object-fit:cover;
+     margin-right:20px;
+    }
+   #about p{
+    flex:1;
+     font-size:1.1em;
+    }
+   .akash{
+    height: 380px;
+    width: 340px;
+   }
+   
+   #skills{
+    background: gainsboro;
+     padding:40px 0;
+    }
+   #skills h2{
+    text-align:center;
+     font-size:2.5em;
+     margin-bottom:20px;
+    }
+   #skills ul{
+    list-style-type:none;
+     text-align:center;
+    }
+   #skills ul li{
+    display:inline-block;
+     margin:10px 20px;
+     font-size:1.8em;
+    }
+   
+   
+   #projects{
+    background:white;
+     padding:40px 0;
+    }
+   #projects h2{
+    text-align:center;
+     font-size:2.5em;
+     margin-bottom:30px;
+    }
+   
+   .project{
+    margin-bottom:40px;
+}
+   .project h3{
+    font-size:1.8em;
+     margin-bottom:20px;
+    }
+   .project img{
+    width: 100%;
+     height: auto;
+     border-radius:8px;
+    }
+   
+   
+   #resume{
+    background: gainsboro;
+     padding:40px 0;
+     text-align:center;
+    }
+   #resume .button{
+    padding:15px 30px;
+     background: darkslategray;
+     color:white;
+     text-decoration:none;
+     font-size:1.8em;
+     border-radius:5px;
+    }
+   #resume .button:hover {
+    background: dimgray;
+}
+   
+   
+   #contact {
+    background:white;
+     padding:40px 0;
+     text-align:center;
+    }
+   #contact h2{
+    font-size:2em;
+}
+   #contact a {
+    color: darkslategray;
+     color: dimgray;
+     font-size: 1.1em;
+     line-height: 1.7;
+     text-decoration:none;
+    }
+   #contact a {
+    color: mediumseagreen;
+     text-decoration: none;
+     font-weight: 600;
+     transition: color 0.3s ease;
+    }
+   #contact a:hover {
+    text-decoration: underline;
+     color: forestgreen;
+    }
+   
+   footer {
+    background: darkslategray;
+     color:white;
+     padding:20px 0;
+     text-align:center;
+    }
+   footer a { 
+    color:white;
+     text-decoration:none;
+    }
+    footer a:hover {
+    text-decoration:underline;
+        color: red;
+    }
+            
